@@ -13,7 +13,7 @@ class TaskViewModel: ObservableObject {
     @Published var taskTitleField = ""
     @Published var taskTextField = ""
     @Published var deleteTask: Task?
-    @Published var isDleteAllTapped = false
+    @Published var isDeleteAllTapped = false
     
     private var addTaskJob: AnyCancellable?
     private var deleteTaskJob: AnyCancellable?
