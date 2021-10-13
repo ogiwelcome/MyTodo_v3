@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CF04142B27104A8500B1D75F /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF04142A27104A8500B1D75F /* TaskViewModel.swift */; };
+		CF04142D271056AD00B1D75F /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF04142C271056AD00B1D75F /* TaskListView.swift */; };
 		CF04D3BA2709F1A200F404D4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = CF04D3B92709F1A200F404D4 /* Realm */; };
 		CF04D3BC2709F1A200F404D4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CF04D3BB2709F1A200F404D4 /* RealmSwift */; };
 		CF64BB96270CACF500578D8B /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF64BB95270CACF500578D8B /* TaskModel.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		CF04142A27104A8500B1D75F /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		CF04142C271056AD00B1D75F /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		CF64BB95270CACF500578D8B /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 		CF68EEF22708A2180082CF8A /* MyTodo_v3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTodo_v3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF68EEF52708A2180082CF8A /* MyTodo_v3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTodo_v3App.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				CF68EEF72708A2180082CF8A /* ContentView.swift */,
 				CF64BB95270CACF500578D8B /* TaskModel.swift */,
 				CF04142A27104A8500B1D75F /* TaskViewModel.swift */,
+				CF04142C271056AD00B1D75F /* TaskListView.swift */,
 				CF68EEF92708A21E0082CF8A /* Assets.xcassets */,
 				CF68EEFE2708A21E0082CF8A /* Info.plist */,
 				CF68EEFB2708A21E0082CF8A /* Preview Content */,
@@ -158,6 +161,7 @@
 				CF64BB96270CACF500578D8B /* TaskModel.swift in Sources */,
 				CF04142B27104A8500B1D75F /* TaskViewModel.swift in Sources */,
 				CF68EEF82708A2180082CF8A /* ContentView.swift in Sources */,
+				CF04142D271056AD00B1D75F /* TaskListView.swift in Sources */,
 				CF68EEF62708A2180082CF8A /* MyTodo_v3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,7 +10,6 @@ import Combine
 
 class TaskViewModel: ObservableObject {
     @Published private(set) var tasks: [Task] = Array(Task.findAll())
-    @Published var taskTitleField = ""
     @Published var taskTextField = ""
     @Published var deleteTask: Task?
     @Published var isDeleteAllTapped = false
